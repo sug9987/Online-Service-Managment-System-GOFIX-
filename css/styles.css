@@ -1,0 +1,18 @@
+/* Ensure all service images have the same size */
+.service-box img {
+    width: 100px !important;  /* Fixed width */
+    height: 100px !important; /* Fixed height */
+    object-fit: cover !important; /* Ensures image fills the space */
+    border-radius: 50% !important; /* Makes images circular */
+    background-color: white !important; /* Fix for transparent images */
+    display: block;
+    margin: 10px auto; /* Adds space around the images */
+    border: 3px solid #ddd; /* Adds a light border */
+    padding: 5px;
+}
+
+/* Ensure service boxes have spacing between them */
+.service-box {
+    padding: 15px; /* Adds space between each service */
+    text-align: center;
+}
